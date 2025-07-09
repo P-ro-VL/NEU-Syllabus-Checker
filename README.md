@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# TOOL KIỂM TRA SỐ LƯỢNG CÁC MÔN HỌC CÒN LẠI ĐỂ HOÀN THÀNH CHƯƠNG TRÌNH ĐÀO TẠO - ĐẠI HỌC KINH TẾ QUỐC DÂN
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Lưu ý: Người dùng cần đăng nhập vào [daihocchinhquy](daihocchinhquy.neu.edu.vn) trước khi sử dụng tool này
 
-## Available Scripts
+![alt text](image-5.png)
 
-In the project directory, you can run:
+### Giới thiệu
 
-### `npm start`
+Chương trình đào tạo (CTĐT) tại Đại học Kinh tế Quốc dân là đặc thù theo từng ngành đào tạo. Tuy nhiên, sinh viên chỉ cần học đủ số lượng tín chỉ để hoàn thành CTĐT và xét tốt nghiệp, cụ thể:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Đối với sinh viên K65 về trước: Hoàn thành các học phần bắt buộc; nhóm học phần tự chọn Kiến thức ngành chọn 5 môn; nhóm học phần tự chọn Chuyên sâu chọn 6 môn
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Đối với sinh viên K66 về sau: Hoàn thành các học phần bắt buộc; nhóm học phần tự chọn Chuyên sâu chọn 10 môn
 
-### `npm test`
+Công cụ này sinh ra để giúp sinh viên nhanh chóng kiểm tra xem với từng nhóm học phần, bản thân còn cần phải hoàn thành bao nhiêu học phần nữa để đủ điều kiện xét tốt nghiệp.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Techstack
 
-### `npm run build`
+- Chrome API
+- Javascript
+- HTML, CSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Cài đặt
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Bước 1: Tải xuống tệp extension [tại đây](https://github.com/P-ro-VL/NEU-Syllabus-Checker/releases)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Bước 2: Tại Chrome/Edge, bấm vào phần Quản lý tiện ích (Manage Extensions)
+![alt text](image.png)
 
-### `npm run eject`
+Bước 3: Tìm dòng Chế độ dành cho nhà phát triển (Developer Mode) và bật lên
+![alt text](image-1.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Bước 4: Bấm chọn Tải tiện ích đã giải nén (Load unpacked extension) ![alt text](image-2.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Bước 5: Chọn folder `publish` sau khi đã giải nén và bấm Xác nhận
+![alt text](image-3.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Bước 6: Bấm lại phần Quản lý tiện ích và ghim Extension
+![alt text](image-4.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Bước 7: Sử dụng: Truy cập [daihocchinhquy](daihocchinhquy.neu.edu.vn), đăng nhập và bấm vào tool đã ghim. Đợi 10s, hệ thống sẽ hiển thị số lượng học phần còn thiếu bạn cần học, đồng thời bôi xanh các học phần bạn đã học
+![alt text](image-6.png)

@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Kiểm tra chương trình đào tạo",
+  "description": "Tool kiểm tra số lượng các học phần đã học theo chương trình đào tạo",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["cookies", "tabs"],
+  "host_permissions": ["*://*.neu.edu.vn/"]
+}
